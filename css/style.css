@@ -1,11 +1,30 @@
 body{
     margin: 0%;
-    background-color: #222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-h1,h3
+center{
+    margin-top: 120px;
+}
+.hd-left
 {
-    color: white;
+
+    display: block;
+    width: 220px;
+    margin-left: 2%;
+    margin-top: 2%;
 }
-p,li,td{
-    color: rgb(255, 255, 255);
+.hd-left, img
+{
+    width: 20%;
+}
+.hd-right
+{
+
+    display: block;
+    width: 220px;
+    margin-left: 80%;
+}
+.hd-right, img
+{
+    width: 25%;
 }
